@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Filmy</string>
+    <string name="search_hint">Inserisci nome del film...</string>
+    <string name="title_activity_tablayout">Tablayout</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

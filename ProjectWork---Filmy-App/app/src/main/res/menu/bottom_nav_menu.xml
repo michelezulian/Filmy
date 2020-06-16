@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/itemHome"
+        android:title="Movies"
+        android:icon="@drawable/technology"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemSeen"
+        android:title="Visti"
+        android:icon="@drawable/eye"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemUser"
+        android:title="Da Vedere"
+        android:icon="@drawable/popcorn"
+        app:showAsAction="always"
+        />
+</menu>

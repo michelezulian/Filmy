@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ricerca"
+        android:title="Search"
+        android:icon="@drawable/search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/filter_movie"
+        android:title="filter"
+        android:icon="@drawable/web"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/popular_popUp"
+                android:title="Popular" />
+            <item
+                android:id="@+id/topRated_popUp"
+                android:title="Top Rated" />
+            <item
+                android:id="@+id/upcoming_popUp"
+                android:title="Upcoming" />
+            <item
+                android:id="@+id/playingNow_popUp"
+                android:title="Playing now" />
+        </menu>
+    </item>
+</menu>

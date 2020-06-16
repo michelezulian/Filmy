@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MovieDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/backdrop_path"
+                android:layout_width="match_parent"
+                android:layout_height="562px"
+                />
+
+            <TextView
+                android:id="@+id/titleDetail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp"
+                android:singleLine="false"
+                android:text="TextView"
+                android:textIsSelectable="true"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+            <TextView
+                android:id="@+id/textview_popolarità"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Popolarità "
+                android:textSize="14dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical|end"/>
+            <TextView
+                android:id="@+id/textview_voteCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero di voti: "
+                android:textSize="14dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical|end"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trama"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical|end">
+            </TextView>
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|end"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:singleLine="false"
+                android:text="TextView"
+                android:textIsSelectable="true"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
